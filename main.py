@@ -240,8 +240,8 @@
 ###
 # def show_info(surname, name="noname", hobby="no hobby"):
 #     print(f"Name: {name} surname: {surname} hobby: {hobby}")
-#
-#
+# #
+# #
 # show_info(name=input("Enter your name: "), surname=input("Enter your surname: "), hobby=input("Enter your hobby: "))
 # show_info("Vasya", "Petrov", "qwerty")
 # show_info("Vasya", "Petrov")
@@ -281,7 +281,7 @@
 # def print_person(name, /, age=18, *, company):
 #     print(f"Name: {name}  Age: {age}  Company: {company}")
 #
-#
+# #
 # print_person("Sam", company="Google")  # Name: Sam  Age: 18  company: Google
 # print_person("Tom", 37, company="JetBrains")  # Name: Tom  Age: 37  company: JetBrains
 # print_person("Bob", company="Microsoft", age=42)  # Name: Bob  Age: 42  company: Microsoft
@@ -300,12 +300,12 @@
 
 
 ###
-def add(a, b):
-    return a + b
-
-
-def division(a, b):
-    return a / b
+# def add(a, b):
+#     return a + b
+#
+#
+# def division(a, b):
+#     return a / b
 
 
 # def calculate():
@@ -337,8 +337,8 @@ def division(a, b):
 
 # nums_1 = [2, 4, 1, 5, 7]
 # nums_2 = [5, 2, 8, 6, 1, 4, 9]
-#
-#
+# #
+# #
 # def calc_number_of_equals_numbers_v1(numbers_1, numbers_2):
 #     def get_number_of_equals_numbers(first_numbers, second_numbers):
 #         counter = 0
@@ -355,11 +355,11 @@ def division(a, b):
 # def calc_number_of_equals_numbers_v2(numbers_1, numbers_2):
 #     return len(set(numbers_1).intersection(set(numbers_2)))
 #
-#
+# #
 # result = calc_number_of_equals_numbers_v1(nums_1, nums_2)
 # print(result)
-#
-#
+# #
+# #
 # result = calc_number_of_equals_numbers_v2(nums_1, nums_2)
 # print(result)
 
